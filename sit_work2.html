@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sit_work2</title>
+    <style>
+        table { 
+            border: indianred; color: magenta;
+             padding: 20px; width: 800px;
+            }
+
+        th{ background-color: rgb(70, 0, 128); text-align: left; 
+        border: mediumorchid; padding: 10px;  color: orange;
+        }
+        td {background-color: rgb(107, 93, 11); color: rgb(18, 4, 37);
+            border: orange; padding: 30px; text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+<section>
+    <table>
+        <caption> <h1> Names of Parties and Members</h1></caption>
+         <thead>
+             <tr>
+                 <th> APC</th>
+                 <th>PDP</th>
+                 <th>MPP</th>
+             </tr>
+         </thead>
+
+         <tbody>
+             <tr>
+                 <td>paul</td>
+                 <td>peter</td>
+                 <td>james</td>
+             </tr>
+
+             <tr>
+                 <td>badmus</td>
+                 <td>jakes</td>
+                 <td>joshua</td>
+             </tr>
+
+             <tr>
+                 <td>amos</td>
+                 <td>akpan</td>
+                 <td>bishop</td>
+             </tr>
+
+             <tr>
+                 <td>okongo</td>
+                 <td>buhari</td>
+                 <td>obasango</td>
+             </tr>
+         </tbody>
+    </table><br>
+</section>
+
+<form action="" style="background-color: red; color: salmon; padding: 20px;">
+    <section>
+        <label for="fname">first name</label>
+        <input type="text" id="fname" placeholder="first name"><br>
+        <label for="lname"> last name</label>
+        <input type="text" id="lnmae" placeholder="last name"><br>
+        <label for="number"> number</label>
+        <input type="number" id="number" placeholder="">
+    </section>
+
+    <div>
+        <select name="gender" id=""> gender
+            <label for="gender">gender</label>
+            <option>--select--</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>
+    </div>
+
+    
+    <div>
+        <!--check box created-->
+        <h1>hobbies</h1>
+        <label for="reading">reading</label>
+        <input type="checkbox" >
+        <label for="">football</label>
+        <input type="checkbox" value="football">
+    </div>
+
+
+    <div>
+        <!-- radio button created-->
+        <h1>best food</h1>
+        <label for="">beans</label>
+        <input type="radio" value="beans" name="best food">
+        <label for="">rice</label>
+        <input type="radio" value="rice" name="best food">
+        <label for="">plantain</label>
+        <input type="radio" value="plantain" name="best food">
+    </div>
+
+<div>
+    <label for="">other hobbies</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</div>
+<button>submit</button>
+</form>
+
+</body>
+</html>
